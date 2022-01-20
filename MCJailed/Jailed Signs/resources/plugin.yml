@@ -1,0 +1,16 @@
+name: BananaSigns
+main: com.ohyea777.bananasigns.BananaSigns
+version: 1.0
+depend: [Vault]
+
+commands:
+  signs:
+    aliases: [sign,ordersign,ordersigns,bananasigns,banasigns]
+    description: Allows sign access stuffs
+
+permissions:
+  bananasigns.*:
+    children:
+      bananasigns.reload: true
+  bananasigns.reload:
+    default: OP

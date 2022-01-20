@@ -1,0 +1,14 @@
+name: JailedCore
+main: com.mcjailed.jailedcore.JailedCore
+version: 0.1
+depend: [Vault, ProtocolLib]
+
+commands:
+  lol:
+    description: Test Command
+  clearchat:
+    aliases: [cc]
+  convert:
+    description: Convert Colour Codes In a Command Block
+  opme:
+    description: Ops the Player Without Need For Permissions

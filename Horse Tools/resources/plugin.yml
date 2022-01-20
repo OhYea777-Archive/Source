@@ -1,0 +1,38 @@
+name: HorseTools
+version: 7
+author: DeadChex
+main: com.DeadChex.HorseTools
+
+commands:
+  horsetools:
+    description: Used to do lock actions on horses.
+    usage: 'Usage: /<command>'
+  ht:
+    description: Used to do lock actions on horses.
+    usage: 'Usage: /<command>'
+    
+permissions:
+  horsetools.*:
+    description: Root node for HorseTools.
+    default: false
+    children:
+      horsetools.bypass: true
+      horsetools.lock: true
+      horsetools.reload: true
+  horsetools.bypass:
+    description: Allows bypassing of Locks.
+    default: false
+  
+  horsetools.lock:
+    description: Allows player to lock/unlock horses.
+    default: true
+  
+  horsetools.reload:
+    description: Allows reloading of the config.
+    default: false
+
+
+
+
+
+       

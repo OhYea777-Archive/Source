@@ -1,0 +1,10 @@
+name: PlunderTools
+version: 0.1
+authors: [OhYea777]
+main: com.ohyea777.plunder.PlunderTools
+
+commands:
+  modules:
+    description: View and disable/enable Plunder Tool's modules
+  recreation:
+    description: Set the Recreation Location and/or Start the Recreation Timer

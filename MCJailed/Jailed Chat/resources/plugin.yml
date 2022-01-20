@@ -1,0 +1,4 @@
+name: JailedChat
+main: com.mcjailed.jailedchat.JailedChat
+version: 0.1
+depend: [JailedCore]

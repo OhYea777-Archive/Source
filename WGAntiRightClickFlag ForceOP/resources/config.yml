@@ -1,0 +1,11 @@
+Messages:
+  Prefix: '&8[&bWGAntiRightClickFlag&8] &7'
+  NoPerm: '&4You Do Not Have Permission to do That!'
+  Reloaded: 'Config Reloaded!'
+
+Options:
+  GloballyBlockMods: true
+
+AllRegions:
+  Blocks: []
+  Items: []

@@ -1,0 +1,9 @@
+name: LoanMe
+version: 0.1
+author: OhYea777
+main: com.ohyea777.loanme.LoanMe
+depend: [GsonAPI]
+
+commands:
+  loanme:
+    aliases: [lm]

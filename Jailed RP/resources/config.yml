@@ -1,0 +1,47 @@
+Messages:
+  Prefix: '&8[&bJailed&8] &8[&bRP&8] &7'
+  EconomyFail: '&cError: Economy Failure!'
+  InvalidArguments: '&cInvalid Args!'
+  Reload: 'Config Reloaded!'
+  NoPerm: '&cYou Do Not Have Permission to Do This!'
+  Jobs:
+    EconomyFail: '&b{job}&8:&7 Economy Failure!'
+    Paid: '&b{job}&8:&7 You Have Been Paid &b${amount}&7 For Your Work!'
+    NoPay: '&b{job}&8:&c Your Job Does Not Pay You. You Should Consider Changing Jobs!'
+  RPKey:
+    Locked: 'Door Locked!'
+    Unlocked: 'Door Unlocked!'
+    DoorLocked: '&cDoor Is Locked!'
+    DoorLockedUse: '&cYour Keys Do Not Work On This Door!'
+    AlreadyOwned: '&cYou Cannot Buy A Door That Is Already Owned!'
+    Purchased: 'Door Purchased!'
+    TooPoor: '&cYou Cannot Afford This Door Cause You Are Too Poor Brah!'
+  DM:
+    Pickup: 'You Have Just Picked Up &b${amount}&7!'
+    NotNumber: '&cThat Value Is Not a Number!'
+    Dropped: 'Money Dropped!'
+    TooPoor: '&cYou Do Not Have &b${amount}&c!'
+    Value: '&cValue Must Be a Multiple of &b{coin}&c, Greater Than &b${min}&c and Less Than &b${max}&c!'
+  RPPrinter:
+    Type: '&b{type}&7 Money Printer!'
+    Place: 'Placed &b{type}&7 Money Printer!'
+    Pickup: 'Picked Up &b{type}&7 Money Printer!'
+  RPLockPick:
+    DoorPicked: 'Door Picked!'
+    FailedToPick: '&cFailed To Pick Door Lock In Time!'
+    Progress: 'Lock Picking Progress: '
+  RPDoor:
+    Help: 'Door Help:<n>&8--]&7 Add User: &b/door add <player><n>&8--]&7 Remove User: &b/door remove user <player><n>&8--]&7 Add Owner: &b/door add owner <player><n>&8--]&7 Remove Owner: &b/door remove owner <player><n>&8--]&7 Sell: &b/door sell<n>&bNote&8:&7 Must Be Looking At the Door You Wish to Modify'
+    Added: 'Added Player &b{player}&7 to Door!'
+    Removed: 'Removed Player &b{player}&7 From Door!'
+    SelfAdd: '&cYou Cannot Add Yourself to a Door!'
+    SelfRemove: '&cYou Cannot Remove Yourself From a Door! Try &b/door sell&c!'
+    NotAdded: '&cYou Cannot Remove a Player From a Door They Have Not Been Added to!'
+    AlreadyAdded: '&cThat Player is Already Added!'
+    NotOwner: '&cOnly Owners of the Door Can Do That!'
+    Sold: 'Door Sold For &b${amount}&7!'
+    UserNotOwner: '&cThat Player Is Not an Owner!'
+    Look: '&cYou Must Be Looking At a Wooden Door!'
+  RPStunStick:
+    Stunned: 'You Have Just Stunned {player}!'
+    BeenStunned: 'You Have Been Stunned By {player}!'

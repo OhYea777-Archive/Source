@@ -1,0 +1,17 @@
+name: JailedRP
+author: OhYea777
+version: 0.1
+main: com.mcjailed.jailedrp.JailedRP
+depend: [ProtocolLib, PopupMenuAPI]
+
+commands:
+  dm:
+    description: Allows For Dropping of Money
+    aliases: [drop, dropmoney, dropm]
+  rp:
+    description: Used For JailedRP's Commands
+    aliases: [jailedrp]
+  door:
+    description: Used For Managing Doors
+  test:
+    description: Test

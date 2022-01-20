@@ -1,0 +1,20 @@
+name: Unplaceable Blocks
+author: OhYea777
+version: 1.0
+main: com.ohyea777.unplaceableblocks.UnplaceableBlocks
+
+commands:
+  unplaceableblocks:
+    description: Used for Unplaceable Blocks
+    aliases: [ub, unplaceableblock]
+
+permissions:
+  ub.*:
+    default: OP
+    children:
+      ub.place: true
+      ub.reload: true
+  ub.place:
+    description: Allows Placing of Unplaceable Blocks
+  ub.reload:
+    description: Allows Reloading of Unplaceable Blocks' Config

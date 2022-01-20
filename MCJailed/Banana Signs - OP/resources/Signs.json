@@ -1,0 +1,28 @@
+{
+  "Signs": [
+    {
+      "Name": "Spawn",
+      "Price": 10000,
+      "Permission": "spawn",
+      "Lines": [
+        "&1[Warp]", "Spawn", "", ""
+      ]
+    },
+    {
+      "Name": "Heal",
+      "Price": 10000,
+      "Permission": "heal",
+      "Lines": [
+        "&1[Heal]", "", "", ""
+      ]
+    },
+    {
+      "Name": "Disposal",
+      "Price": 10000,
+      "Permission": "disposal",
+      "Lines": [
+        "&1[Disposal]", "", "", ""
+      ]
+    }
+  ]
+}

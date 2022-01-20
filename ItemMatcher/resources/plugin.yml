@@ -1,0 +1,29 @@
+name: ItemMatcher
+version: 1.0
+author: OhYea777
+main: com.ohyea777.itemmatcher.ItemMatcher
+
+commands:
+  im:
+    description: Used For the ItemMatcher Plugin
+    aliases: [itemmatch, itemmatcher]
+
+permissions:
+  itemmatcher.*:
+    default: OP
+    children:
+      itemmatcher.use.*:
+      itemmatcher.reload: true
+      itemmatcher.modify: true
+  itemmatcher.use.*:
+    children:
+      itemmatcher.use: true
+      itemmatcher.use.return: true
+  itemmatcher.use:
+    description: Allows For Use of an ItemMatcher Item Frame
+  itemmatcher.use.return:
+    description: Allows For Returning of Item After Correct Use of an ItemMatcher Item Frame
+  itemmatcher.reload:
+    description: Allows For Reloading of ItemMatcher's Config
+  itemmatcher.modify:
+    description: Allows For Modifying and Setting ItemMatcher Item Frames Ingame

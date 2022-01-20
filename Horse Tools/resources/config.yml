@@ -1,0 +1,13 @@
+#Do NOT modify the following fields.
+Version: 7
+
+#The fields after this may be modified.
+
+#true: Horses can't be killed by players. false: players can kill horses.
+protectHorses: true
+
+#true: Players must always lock a horse before riding it. 
+#false: players can ride/lock horses that are unlocked.
+mustLock: true
+
+#To disable stats, look for "Plugin-Metrics" in your severs root directory.

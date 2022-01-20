@@ -1,0 +1,12 @@
+#OrderSign Plugin, for ClinkPrison use only. Lel
+#Recoded By: zStaaR
+#10th April 2014
+
+signs:
+    Spawn:
+        cost: 15000
+        permission: "ordersign.spawn"
+        1: "&1[Warp]"
+        2: "Spawn"
+        3: ""
+        4: ""

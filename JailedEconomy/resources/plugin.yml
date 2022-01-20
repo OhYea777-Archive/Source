@@ -1,0 +1,4 @@
+name: JailedEconomy
+main: com.mcjailed.jailedeconomy.JailedEconomy
+version: 0.1
+depend: [JailedCore, Vault]

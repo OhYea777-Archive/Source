@@ -1,0 +1,9 @@
+name: OrderSign
+version: 0.1
+authors: [OhYea777,zStaaR]
+main: com.ohyea777.ordersign.OrderSign
+
+commands:
+  ordersign:
+    aliases: [sign,ordersign,ordersigns]
+    description: Basic command for the plugin

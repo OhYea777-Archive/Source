@@ -1,0 +1,12 @@
+name: BukkitTube
+version: ${project.version}
+main: com.ohyea777.bukkittube.BukkitTube
+author: OhYea777
+depend: [ProtocolLib]
+
+commands:
+  loadvideo:
+    aliases: [load, video, lv]
+    description: Loads a Video
+  replay:
+    description: Replays the Last Video

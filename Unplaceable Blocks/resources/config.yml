@@ -1,0 +1,11 @@
+Messages:
+  Prefix: '&8[&6UnplaceableBlocks&8] &f'
+  Reloaded: 'Config Reloaded!'
+  No_Perm_Reload: '&4You Do Not Have Permission to Reload the Config!'
+  No_Perm_Place: '&4You Cannot Place an Unplaceable Block!'
+
+Name:
+- 'Change Me'
+
+Lore:
+- 'Change Me'

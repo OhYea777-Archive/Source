@@ -1,0 +1,15 @@
+name: WGAntiRightClickFlag
+version: 0.1
+author: OhYea777
+main: com.ohyea777.wg.WGAntiRightClickFlag
+depend: [WGCustomFlags, WorldGuard, WorldEdit]
+
+commands:
+  rightclick:
+    aliases: [rc]
+
+permissions:
+  wgantirightclickflag.*:
+    default: OP
+  wgantirightclickflag.reload:
+    default: OP
